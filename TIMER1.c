@@ -9,7 +9,7 @@ void timer_init1(void) {
     T1CONbits.TMR1CS0 = 0; //Timer1 clock source is the instruction clock (FOSC/4)
     T1CONbits.TMR1CS1 = 0;
 
-    T1CONbits.TMR1ON = 1; //TIMER1 ON
+    T1CONbits.TMR1ON = 1; //TIMER1 ON dshiaihkjahiub uashckjn
 
     TMR1 = 0xFFFF - TIMER1_SEC_COUNT;
 }
